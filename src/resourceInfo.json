@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "name": "Organic",
+        "builds": [{
+            "furnace": ["Carbon"],
+            "chemistry": ["Rubber"]
+        }],
+        "found": ["All Planets"]
+    },
+    {
+        "id": 2,
+        "name": "Compound",
+        "builds": [{
+            "backpack": ["Small Generator", "Tethers", "Small Printer"],
+            "small": ["Rover Seat", "Medium Printer"],
+            "medium": ["Research Chamber", "Smelting Furnace", "Soil Centrifuge", "Trade Platform", "Large Printer"],
+            "large": ["Buggy", "Large Rover Seat"],
+            "chemistry": ["Plastic"]
+        }],
+        "found": ["All Planets"]
+    },
+    {
+        "id": 3,
+        "name": "Resin",
+        "builds": [{
+            "backpack": ["Canister", "Oxygen Filters"],
+            "small": ["Medium Storage", "Medium Platform A", "Medium Platform B"],
+            "medium": ["Large Platform A", "Large Platform B", "Smelting Furnace"],
+            "large": ["Extra Large Platform B"],
+            "chemistry": ["Rubber", "Silicone"]
+        }],
+        "found": ["All Planets"]
+    },
+    {
+        "id": 4,
+        "name": "Resin",
+        "builds": [{
+            "backpack": ["Canister", "Oxygen Filters"],
+            "small": ["Medium Storage", "Medium Platform A", "Medium Platform B"],
+            "medium": ["Large Platform A", "Large Platform B", "Smelting Furnace"],
+            "large": ["Extra Large Platform B"],
+            "chemistry": ["Rubber", "Silicone"]
+        }],
+        "found": ["All Planets"]
+    },
+    {
+        "id": 5,
+        "name": "Clay",
+        "builds": [{
+            "furnace": ["Ceramic"]
+        }],
+        "found": ["All Planets"]
+    },
+    {
+        "id": 6,
+        "name": "Quartz",
+        "builds": [{
+            "backpack": ["Beacon"],
+            "furnace": ["Glass"],
+            "chemistry": ["Silicone"]
+        }],
+        "found": ["All Planets"]
+    },
+    {
+        "id": 7,
+        "name": "Ammonium",
+        "builds": [{
+            "small": ["Solid-Fuel Thruster"],
+            "chemistry": ["Hydrazine"]
+        }],
+        "found": ["All Planets"]
+    },
+    {
+        "id": 8,
+        "name": "Graphite",
+        "builds": [{
+            "backpack": ["Packager"],
+            "small": ["Splitter"],
+            "chemistry": ["Graphene"]
+        }],
+        "found": ["All Planets"]
+    },
+    {
+        "id": 9,
+        "name": "Astronium",
+        "builds": [{
+        }],
+        "found": ["All Planets"]
+    },
+    {
+        "id": 10,
+        "name": "Sphalerite",
+        "builds": [{
+            "furnace": ["Zinc"]
+        }],
+        "found": ["Sylva", "Desolo"]
+    },
+    {
+        "id": 11,
+        "name": "Wolframite",
+        "builds": [{
+            "furnace": ["Tungsten"]
+        }],
+        "found": ["Desolo", "Calidor"]
+    },
+    {
+        "id": 12,
+        "name": "Malachite",
+        "builds": [{
+            "furnace": ["Copper"]
+        }],
+        "found": ["Sylva", "Calidor"]
+    },
+    {
+        "id": 13,
+        "name": "Lithium",
+        "builds": [{
+            "backpack": ["Small Battery"],
+            "small": ["Medium Battery", "RTG"]
+        }],
+        "found": ["Vesania", "Novus"]
+    },
+    {
+        "id": 14,
+        "name": "Hematite",
+        "builds": [{
+            "furnace": ["Iron"]
+        }],
+        "found": ["Novus", "Glacio"]
+    },
+    {
+        "id": 15,
+        "name": "Titanite",
+        "builds": [{
+            "furnace": ["Titanium"]
+        }],
+        "found": ["Vesania", "Glacio"]
+    }
+]
