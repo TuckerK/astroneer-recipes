@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import MaterialCard from "./components/MaterialCard";
+import materialInfo from "./materialInfo.json";
 import './App.css';
 
 class App extends Component {
+
+  state = {
+    materialInfo
+  };
+
   render() {
+    // console.log(this.state.materialInfo);
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      {this.state.materialInfo.map(card => (
+        <MaterialCard
+            id={card.id}
+            key={card.id}
+            name={card.name}
+            builds={card.builds}
+          />
+      ))}  
       </div>
     );
   }
