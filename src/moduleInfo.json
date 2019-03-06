@@ -94,5 +94,329 @@
         "name": "Packager",
         "platform": "Backpack",
         "resources": ["Graphite"]
+    },
+    {
+        "id": 17,
+        "name": "Inhibitor Mod",
+        "platform": "Backpack",
+        "resources": ["Zinc"]
+    },
+    {
+        "id": 18,
+        "name": "Boost Mod",
+        "platform": "Backpack",
+        "resources": ["Zinc"]
+    },
+    {
+        "id": 19,
+        "name": "Narrow Mod",
+        "platform": "Backpack",
+        "resources": ["Zinc"]
+    },
+    {
+        "id": 20,
+        "name": "Wide Mod",
+        "platform": "Backpack",
+        "resources": ["Zinc"]
+    },
+    {
+        "id": 21,
+        "name": "Alignment Mod",
+        "platform": "Backpack",
+        "resources": ["Zinc"]
+    },
+    {
+        "id": 22,
+        "name": "Terrain Analyzer",
+        "platform": "Backpack",
+        "resources": ["Zinc"]
+    },
+    {
+        "id": 23,
+        "name": "Drill Mod 1",
+        "platform": "Backpack",
+        "resources": ["Ceramic"]
+    },
+    {
+        "id": 24,
+        "name": "Drill Mod 2",
+        "platform": "Backpack",
+        "resources": ["Tungsten Carbide"]
+    },
+    {
+        "id": 25,
+        "name": "Drill Mod 3",
+        "platform": "Backpack",
+        "resources": ["Diamond"]
+    },
+    {
+        "id": 26,
+        "name": "Medium Storage",
+        "platform": "Small Printer",
+        "resources": ["Resin", "Resin"]
+    },
+    {
+        "id": 27,
+        "name": "Medium Platform A",
+        "platform": "Small Printer",
+        "resources": ["Resin"]
+    },
+    {
+        "id": 28,
+        "name": "Rover Seat",
+        "platform": "Small Printer",
+        "resources": ["Compound", "Compound"]
+    },
+    {
+        "id": 29,
+        "name": "Medium Printer",
+        "platform": "Small Printer",
+        "resources": ["Compound", "Compound"]
+    },
+    {
+        "id": 30,
+        "name": "Oxygenator",
+        "platform": "Small Printer",
+        "resources": ["Aluminum", "Ceramic"]
+    },
+    {
+        "id": 31,
+        "name": "Medium Generator",
+        "platform": "Small Printer",
+        "resources": ["Aluminum", "Tungsten"]
+    },
+    {
+        "id": 32,
+        "name": "Medium Solar Panel",
+        "platform": "Small Printer",
+        "resources": ["Copper", "Glass"]
+    },
+    {
+        "id": 33,
+        "name": "Medium Wind Turbine",
+        "platform": "Small Printer",
+        "resources": ["Glass", "Ceramic"]
+    },
+    {
+        "id": 34,
+        "name": "Medium Battery",
+        "platform": "Small Printer",
+        "resources": ["Lithium", "Zinc"]
+    },
+    {
+        "id": 35,
+        "name": "RTG",
+        "platform": "Small Printer",
+        "resources": ["Lithium", "NanoCarbon Alloy"]
+    },
+    {
+        "id": 36,
+        "name": "Splitter",
+        "platform": "Small Printer",
+        "resources": ["Copper", "Graphite"]
+    },
+    {
+        "id": 37,
+        "name": "Medium Platform B",
+        "platform": "Small Printer",
+        "resources": ["Resin", "Resin"]
+    },
+    {
+        "id": 38,
+        "name": "Medium Shredder",
+        "platform": "Small Printer",
+        "resources": ["Iron", "Iron"]
+    },
+    {
+        "id": 39,
+        "name": "Tractor",
+        "platform": "Small Printer",
+        "resources": ["Aluminum", "Aluminum"]
+    },
+    {
+        "id": 40,
+        "name": "Trailer",
+        "platform": "Small Printer",
+        "resources": ["Aluminum", "Compound"]
+    },
+    {
+        "id": 41,
+        "name": "Drill Strength 1",
+        "platform": "Small Printer",
+        "resources": ["Tungsten Carbide", "Ceramic"]
+    },
+    {
+        "id": 42,
+        "name": "Drill Strength 2",
+        "platform": "Small Printer",
+        "resources": ["Tungsten Carbide", "Titanium Alloy"]
+    },
+    {
+        "id": 43,
+        "name": "Drill Stength 3",
+        "platform": "Small Printer",
+        "resources": ["Diamond", "Titanium Alloy"]
+    },
+    {
+        "id": 44,
+        "name": "Solid Fuel Thruster",
+        "platform": "Small Printer",
+        "resources": ["Aluminum", "Ammonium"]
+    },
+    {
+        "id": 45,
+        "name": "Hydrazine Fuel-Thruster",
+        "platform": "Small Printer",
+        "resources": ["Tungsten", "Titanium Alloy"]
+    },
+    {
+        "id": 46,
+        "name": "Winch",
+        "platform": "Small Printer",
+        "resources": ["Tungsten", "Rubber"]
+    },
+    {
+        "id": 47,
+        "name": "Large Plaform A",
+        "platform": "Medium Printer",
+        "resources": ["Resin", "Resin"]
+    },
+    {
+        "id": 48,
+        "name": "Large Plaform B",
+        "platform": "Medium Printer",
+        "resources": ["Resin", "Resin", "Resin"]
+    },
+    {
+        "id": 49,
+        "name": "Large Plaform C",
+        "platform": "Medium Printer",
+        "resources": ["Iron", "Iron", "Iron"]
+    },
+    {
+        "id": 50,
+        "name": "Research Chamber",
+        "platform": "Medium Printer",
+        "resources": ["Compound", "Compound", "Resin"]
+    },
+    {
+        "id": 51,
+        "name": "Smelting Furnace",
+        "platform": "Medium Printer",
+        "resources": ["Resin", "Resin", "Compound"]
+    },
+    {
+        "id": 52,
+        "name": "Soil Centrifuge",
+        "platform": "Medium Printer",
+        "resources": ["Compound", "Compound", "Aluminum"]
+    },
+    {
+        "id": 53,
+        "name": "Chemistry Lab",
+        "platform": "Medium Printer",
+        "resources": ["Tungsten", "Glass", "Ceramic"]
+    },
+    {
+        "id": 54,
+        "name": "Atmospheric Condenser",
+        "platform": "Medium Printer",
+        "resources": ["Plastic", "Glass", "Iron"]
+    },
+    {
+        "id": 55,
+        "name": "Trade Platform",
+        "platform": "Medium Printer",
+        "resources": ["Iron", "Tungsten", "Compound"]
+    },
+    {
+        "id": 56,
+        "name": "Large Shredder",
+        "platform": "Medium Printer",
+        "resources": ["Tungsten Carbide", "Iron", "Iron"]
+    },
+    {
+        "id": 57,
+        "name": "Large Printer",
+        "platform": "Medium Printer",
+        "resources": ["Compound", "Compound", "Compound"]
+    },
+    {
+        "id": 58,
+        "name": "Large Storage",
+        "platform": "Medium Printer",
+        "resources": ["Ceramic", "Ceramic", "Ceramic"]
+    },
+    {
+        "id": 59,
+        "name": "Large Rover Seat",
+        "platform": "Medium Printer",
+        "resources": ["Plastic", "Plastic", "Compound"]
+    },
+    {
+        "id": 60,
+        "name": "Crane",
+        "platform": "Medium Printer",
+        "resources": ["Steel", "Silicone", "Titanium"]
+    },
+    {
+        "id": 61,
+        "name": "Buggy",
+        "platform": "Medium Printer",
+        "resources": ["Compound", "Aluminum"]
+    },
+    {
+        "id": 62,
+        "name": "Medium Rover",
+        "platform": "Medium Printer",
+        "resources": ["Rubber", "Plastic", "Plastic"]
+    },
+    {
+        "id": 63,
+        "name": "Extra Large Platform A",
+        "platform": "Large Printer",
+        "resources": ["Iron", "Iron", "Iron", "Iron"]
+    },
+    {
+        "id": 64,
+        "name": "Extra Large Platform B",
+        "platform": "Large Printer",
+        "resources": ["Iron", "Iron", "Resin", "Resin"]
+    },
+    {
+        "id": 65,
+        "name": "Large Rover",
+        "platform": "Large Printer",
+        "resources": ["Aluminum Alloy", "Aluminum Alloy", "Rubber", "Rubber"]
+    },
+    {
+        "id": 66,
+        "name": "Small Shuttle",
+        "platform": "Large Printer",
+        "resources": ["Aluminum", "Aluminum"]
+    },
+    {
+        "id": 67,
+        "name": "Medium Shuttle",
+        "platform": "Large Printer",
+        "resources": ["Ceramic", "Ceramic", "Aluminum Alloy", "Aluminum Alloy"]
+    },
+    {
+        "id": 68,
+        "name": "Large Shuttle",
+        "platform": "Large Printer",
+        "resources": ["Titanium Alloy", "Titanium Alloy", "Ceramic", "Ceramic"]
+    },
+    {
+        "id": 69,
+        "name": "Shelter",
+        "platform": "Large Printer",
+        "resources": ["Silicone", "Silicone", "Plastic", "Plastic"]
+    },
+    {
+        "id": 70,
+        "name": "Solar Array",
+        "platform": "Large Printer",
+        "resources": ["Copper", "Glass", "Plastic", "Graphene"]
     }
 ]
