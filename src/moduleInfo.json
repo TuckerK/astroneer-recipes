@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Small Solar Panel",
+        "platform": "Backpack",
+        "resources": ["Copper"]
+    },
+    {
+        "id": 2,
+        "name": "Small Wind Turbine",
+        "platform": "Backpack",
+        "resources": ["Glass"]
+    },
+    {
+        "id": 3,
+        "name": "Small Battery",
+        "platform": "Backpack",
+        "resources": ["Lithium"]
+    },
+    {
+        "id": 4,
+        "name": "Small Oxygen Tank",
+        "platform": "Backpack",
+        "resources": ["Glass"]
+    },
+    {
+        "id": 5,
+        "name": "Power Cells",
+        "platform": "Backpack",
+        "resources": ["Zinc"]
+    },
+    {
+        "id": 6,
+        "name": "Oxygen Filters",
+        "platform": "Backpack",
+        "resources": ["Resin"]
+    },
+    {
+        "id": 7,
+        "name": "Small Generator",
+        "platform": "Backpack",
+        "resources": ["Compound"]
+    },
+    {
+        "id": 8,
+        "name": "Portable Oxygenator",
+        "platform": "Backpack",
+        "resources": ["NanoCarbon Alloy"]
+    },
+    {
+        "id": 9,
+        "name": "Worklight",
+        "platform": "Backpack",
+        "resources": ["Copper"]
+    },
+    {
+        "id": 10,
+        "name": "Tethers",
+        "platform": "Backpack",
+        "resources": ["Compound"]
+    },
+    {
+        "id": 11,
+        "name": "Extenders",
+        "platform": "Backpack",
+        "resources": ["Copper"]
+    },
+    {
+        "id": 12,
+        "name": "Beacon",
+        "platform": "Backpack",
+        "resources": ["Quartz"]
+    },
+    {
+        "id": 13,
+        "name": "Dynamite",
+        "platform": "Backpack",
+        "resources": ["Explosive Powder"]
+    },
+    {
+        "id": 14,
+        "name": "Canister",
+        "platform": "Backpack",
+        "resources": ["Resin"]
+    },
+    {
+        "id": 15,
+        "name": "Fireworks",
+        "platform": "Backpack",
+        "resources": ["Explosive Powder"]
+    },
+    {
+        "id": 16,
+        "name": "Packager",
+        "platform": "Backpack",
+        "resources": ["Graphite"]
+    }
+]
