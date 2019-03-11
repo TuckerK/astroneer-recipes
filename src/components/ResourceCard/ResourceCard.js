@@ -26,17 +26,17 @@ class ResourceCard extends Component {
       <h2 className="platform">Planets Found On</h2>
       <ul>{this.props.found}</ul>
       <h2 className="platform">Backpack Printer</h2>
-      <ul>{this.props.builds.backpack}</ul>
+      <ul>{this.props.builds[0].backpack}</ul>
       <h2 className="platform">Small Printer</h2>
-      <ul>{this.props.builds.small}</ul>
+      <ul>{this.props.builds[0].small}</ul>
       <h2 className="platform">Medium Printer</h2>
-      <ul>{this.props.builds.medium}</ul>
+      <ul>{this.props.builds[0].medium}</ul>
       <h2 className="platform">Large Printer</h2>
-      <ul>{this.props.builds.large}</ul>
+      <ul>{this.props.builds[0].large}</ul>
       <h2 className="platform">Smelting Furnace</h2>
-      <ul>{this.props.builds.furnace}</ul>
+      <ul>{this.props.builds[0].furnace}</ul>
       <h2 className="platform">Chemistry Lab</h2>
-      <ul>{this.props.builds.chemistry}</ul>
+      <ul>{this.props.builds[0].chemistry}</ul>
     </div>
   }
 
