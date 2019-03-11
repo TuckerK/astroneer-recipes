@@ -1,5 +1,6 @@
 [
     {
-        "test": "successful"
+        "test": "successful",
+        "test2": "also successful"
     }
 ]
