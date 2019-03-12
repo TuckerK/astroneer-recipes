@@ -1,3 +1,15 @@
-.resourceCard {
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: rgb(142, 33, 243);
+    padding: 10px;
+    margin: auto;
+}
 
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
 }

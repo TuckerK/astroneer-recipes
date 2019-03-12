@@ -1,31 +1,59 @@
-import React from "react";
+import React, { Component } from "react";
 import "./ResourceCard.css";
 
-function ResourceCard(props) {
-  const builds = props.builds;
-  const build = builds.map((b, index) => {
-    return <li key={index}>{b}</li>;
-  });
-  // console.log(build[0].props.children.backpack);
-  return (
-    <div className="resourceCard">
-      <h1 className="name">{props.name}</h1>
-      <h2 className="platform">Planets Found On</h2>
-      <ul>{props.found}</ul>
-      <h2 className="platform">Backpack Printer</h2>
-      <ul>{build[0].props.children.backpack}</ul>
-      <h2 className="platform">Small Printer</h2>
-      <ul>{build[0].props.children.small}</ul>
-      <h2 className="platform">Medium Printer</h2>
-      <ul>{build[0].props.children.medium}</ul>
-      <h2 className="platform">Large Printer</h2>
-      <ul>{build[0].props.children.large}</ul>
-      <h2 className="platform">Smelting Furnace</h2>
-      <ul>{build[0].props.children.furnace}</ul>
-      <h2 className="platform">Chemistry Lab</h2>
-      <ul>{build[0].props.children.chemistry}</ul>
+class ResourceCard extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {isToggleOn: true};
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(){
+    this.setState(prevState => ({
+      isToggleOn: !prevState.isToggleOn
+    }));
+  }
+
+  renderName(){
+    return <h1 className="name">{this.props.name}</h1>
+  }
+
+  renderData(){
+
+    const data = this.props.builds[0];
+
+      return <div className="resourceCard grid-item">
+      <h1 className="name">{this.props.name}</h1>
+      <h3 className="platform">Planets Found On</h3>
+      <ul>{this.props.found}</ul>
+      <h3 className="platform">Backpack Printer</h3>
+      <ul>{data.backpack}</ul>
+      <h3 className="platform">Small Printer</h3>
+      <ul>{data.small}</ul>
+      <h3 className="platform">Medium Printer</h3>
+      <ul>{data.medium}</ul>
+      <h3 className="platform">Large Printer</h3>
+      <ul>{data.large}</ul>
+      <h3 className="platform">Smelting Furnace</h3>
+      <ul>{data.furnace}</ul>
+      <h3 className="platform">Chemistry Lab</h3>
+      <ul>{data.chemistry}</ul>
     </div>
-  );
+    }
+  
+
+  render(){
+    return (
+      <div className="card grid-container" onClick={this.handleClick}>
+        {this.state.isToggleOn ? this.renderName() : this.renderData()}
+      </div>
+    );
+  }
+  
 }
 
 export default ResourceCard;
+
+

@@ -10,9 +10,8 @@ class App extends Component {
   };
 
   render() {
-    // console.log(this.state.materialInfo);
     return (
-      <div className="App">
+      <div className="App grid-container">
       {this.state.resourceInfo.map(card => (
         <ResourceCard
             id={card.id}
